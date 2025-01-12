@@ -1,8 +1,8 @@
-### Project Introduction
+# Project Introduction
 Loans are an essential part of the banking industry, and understanding factors such as the loan amount, borrower's income, and loan term that affect loan approval and repayment is essential for making effective decisions. Using Excel, SQL, and Tableau, I examined patterns in loan amounts, demographic data, and credit behavior to offer recommendations that can improve lending strategies and customer orientation.
 
 
-### Dataset Information
+# Dataset Information
 Dataset is taken from Kaggle (link to the dataset : https://www.kaggle.com/datasets/burak3ergun/loan-data-set)
 Below is a brief overview of the columns in the data :
 Gender: Gender of the loan applicant.
@@ -30,7 +30,7 @@ Property_Area: Location of the property (Urban, Semiurban, Rural).
 Loan_Status: Indicates whether the loan was approved (Y) or not (N).
 
 
-### Problems to Solve
+# Problems to Solve
 1) What is the average loan-to-income ratio across different property areas?
 
 2) How does loan approval vary by gender and marital status?
@@ -43,8 +43,8 @@ dependents and marital status?
 5) What actionable insights can help banks better target applicants?
 
 
-### Data Cleaning
-# Cleaning the data was an essential step to ensure accuracy and usability. Here are the key processes I undertook:
+# Data Cleaning
+### Cleaning the data was an essential step to ensure accuracy and usability. Here are the key processes I undertook:
 
 Handling Missing Values: Filled missing values in important columns like Loan_Amount and Credit_History based on averages or logical assumptions(median, mode).
 
@@ -53,10 +53,8 @@ Standardizing Formats: Ensured numeric values were formatted consistently (e.g.,
 Adding Columns: Created new columns such as Area_number and app_id for analysis and ranking.
 
 
-### Analysis
-#To focus on the problems I aimed to solve, certain rows were excluded (e.g., loans with zero amounts or incomes), and new rows were created for better grouping and ranking (e.g., top 20 loans).
-
-Key Insights Discovered
+# Analysis
+### To focus on the problems I aimed to solve, certain rows were excluded (e.g., loans with zero amounts or incomes), and new rows were created for better grouping and ranking (e.g., top 20 loans). Key Insights Discovered:
 Loan-to-Income Ratio: Semiurban areas showed the highest loan-to-income ratios, indicating that applicants in these areas take on higher financial leverage.
 
 Demographic Trends: Married males applied for the largest average loan amounts.
@@ -66,12 +64,12 @@ Top Loans: Urban areas recorded the highest individual loan amounts, highlightin
 Dependents Impact: Applicants with no dependents generally applied for smaller loans compared to those with dependents, aligning with family financial responsibilities.
 
 
-### Dashboard 
+# Dashboard 
 Null
 
 
-### Conclusion
-Answers to Key Questions:
+# Conclusion
+### Answers to Key Questions:
 1) Loan-to-Income Ratio: Semiurban areas have the highest ratios, indicating a higher financial burden for applicants.
 
 2) Demographics: Married males are the top borrowers in terms of loan size, suggesting that banks could focus their marketing efforts on this group.
