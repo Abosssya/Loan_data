@@ -4,7 +4,7 @@ Loans are an essential part of the banking industry, and understanding factors s
 ### Dataset Information
 Dataset is taken from Kaggle (link to the dataset : https://www.kaggle.com/datasets/burak3ergun/loan-data-set)
 Below is a brief overview of the columns in the data :
-* Gender: Gender of the loan applicant.
+Gender: Gender of the loan applicant.
 Married: Marital status of the applicant.
 Dependents: Number of dependents supported by the applicant.
 Education: Education level of the applicant (Graduate/Not Graduate).
