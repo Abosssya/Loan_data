@@ -65,7 +65,8 @@ Dependents Impact: Applicants with no dependents generally applied for smaller l
 
 
 # Dashboard 
-Null
+### Link to the dashboard in Tableau Public :
+https://public.tableau.com/views/loan_dash/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
 # Conclusion
